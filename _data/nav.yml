@@ -1,11 +1,17 @@
 - name: "Contact"
   link: "contact"
+  
+- name: "Personal"
+  link: "personal"
 
 - name: "CV"
   link: "https://www.dropbox.com/s/8dvg70t0gicrjeb/MKJVita.pdf?dl=0"
 
 - name: "Teaching"
   link: "teaching"
+  
+- name: "Research"
+  link: "research"
 
 - name: "About"
   link: "about"
