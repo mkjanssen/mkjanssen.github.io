@@ -9,7 +9,7 @@ I live in Sioux Center, IA, with my wife, daughter, and cat. My wife says that I
 
 ### Tabletop gaming
 
-I've played board games with my wife and friends for years, but recently have jumped into the deep end of modern hobbyist gaming. My current favorites are [Terraforming Mars](https://boardgamegeek.com/boardgame/167791/terraforming-mars) and [Food Chain Magnate](https://boardgamegeek.com/boardgame/175914/food-chain-magnate). Challenge me to a game of FCM on [boardgamecore](http://boardgamecore.net). My username is mkjanssen.
+I've played board games with my wife and friends for years, but recently have jumped into the deep end of modern hobbyist gaming. My current favorites are [Terraforming Mars](https://boardgamegeek.com/boardgame/167791/terraforming-mars) and [Food Chain Magnate](https://boardgamegeek.com/boardgame/175914/food-chain-magnate). Challenge me to a game of FCM on [boardgamecore](http://play.boardgamecore.net). My username is mkjanssen.
 
 ### Homebrewing
 
