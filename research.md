@@ -23,9 +23,9 @@ I am also very interested in the use of research-based methods for teaching and 
 
 
 * Comparing Powers of Edge Ideals, __Under revision__ (with T. Kamp and J. Vander Woude)
-* Mastery-based testing in undergraduate mathematics, __Under revision__. (with J.B.~Collins, A.~Harsy, J.~Hart, K.~Haymaker, A.~Hoofnagle,  J.~Stewart Kelly, A.~Mohr, J.~OShaughnessy)
+* Mastery-based testing in undergraduate mathematics, __Under revision__. (with J.B. Collins, A. Harsy, J. Hart, K. Haymaker, A. Hoofnagle,  J. Stewart Kelly, A. Mohr, J. OShaughnessy)
 * Start a Math Teacher Circle:  Connect K-12 Teachers with Engaging, Approachable, and Meaningful Mathematical  Problems, __The 21st Proceedings of the Association of Christians in the Mathematical Sciences__. (with T. Clark, A. Harsy, D. Klanderman, M. Maxwell, S. Robbert)
-* The Waldschmidt constant for squarefree monomial ideals, __J.\ Algbr Comb__, 2016, [http://dx.doi.org/10.1007/s10801-016-0693-7](http://dx.doi.org/10.1007/s10801-016-0693-7) (with C. Bocci,  S. Cooper, E. Guardo, B. Harbourne, U. Nagel, A. Seceleanu, A. Van Tuyl,  and T. Vu)
+* The Waldschmidt constant for squarefree monomial ideals, __J. Algbr Comb__, 2016, [http://dx.doi.org/10.1007/s10801-016-0693-7](http://dx.doi.org/10.1007/s10801-016-0693-7) (with C. Bocci,  S. Cooper, E. Guardo, B. Harbourne, U. Nagel, A. Seceleanu, A. Van Tuyl,  and T. Vu)
 * On the Fattening of Lines in $\mathbf{P}^3$, Journal of Pure and Applied Algebra, 219(4):1055--1061, 2015, [http://dx.doi.org/10.1016/j.jpaa.2014.05.033](http://dx.doi.org/10.1016/j.jpaa.2014.05.033)
 * Containment problem for points on a reducible conic in $\mathbf{P}^2$, Journal of Algebra, 394(0):120--138, 2013, [http://dx.doi.org/10.1016/j.jalgebra.2013.06.032](http://dx.doi.org/10.1016/j.jalgebra.2013.06.032) (with A. Denkert)
 
