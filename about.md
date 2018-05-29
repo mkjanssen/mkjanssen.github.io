@@ -3,24 +3,20 @@ layout: default
 is_contact: true
 ---
 
-* Email: [foo@xyz.com](mailto:foo@xyz.com)
+* Email: [mike.janssen@dordt.edu](mailto:mike.janssen@dordt.edu)
 
-* Phone: [+91-123123](tel:+91-123123)
+* Phone: [+1 (712) 722-6398](tel:+17127226398)
 
 ---
 
 ## Mailing Address
 
-> 221B, Baker Street
+> 498 4th Ave NE
 >
-> London
+> Sioux Center, IA 51250
 >
-> United Kingdom
+> USA
 
 ---
 
-## Social
 
-1. [Facebook](#)
-2. [Twitter](#)
-3. [Google+](#)
