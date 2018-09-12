@@ -1,0 +1,81 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{4}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{conj}[theorem]{Conjecture}
+
+
+
+
+\title{Math 304 Homework 3}
+
+\author{Your name goes here}
+
+\date{Due September 21, 2018}
+
+\begin{document}
+\maketitle
+
+
+In the following theorem, fill in the blank, and then complete the proof.
+
+\begin{theorem}
+	Let $m,n\in\N$, and let $a\in \Z$.
+	Let $[a]_m$ denote the equivalence class of $a$ under $\equiv_m$, and $[a]_n$ the equivalence class of $a$ under $\equiv_n$.
+	Then $[a]_m\subseteq [a]_n$ if and only if \makebox[0.75in]{\hrulefill}.
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+
+\medskip
+
+
+A relation $\sim$ on a set $S$ is said to be \emph{circular} provided that for all $a,b,c\in S$, if $a\sim b$ and $b\sim c$, then $c\sim a$.
+
+\begin{theorem}
+	A relation $\sim$ on a set $S$ is an equivalence relation if and only if $\sim$ is reflexive and circular.
+\end{theorem}
+
+\begin{proof}
+	
+\end{proof}
+
+
+\end{document}
