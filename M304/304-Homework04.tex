@@ -1,0 +1,89 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{6}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{conj}[theorem]{Conjecture}
+
+
+
+
+\title{Math 304 Homework 4}
+
+\author{Your name goes here}
+
+\date{Due September 28, 2018}
+
+\begin{document}
+\maketitle
+
+
+Let $K = \{2^r \ : \ r\in \R\}$, and define binary operations on $K$ as follows:
+\begin{itemize}
+	\item Addition: $2^r \oplus 2^s := 2^{r+s}$
+	\item Multiplication: $2^r \otimes 2^s := 2^{rs}$
+\end{itemize}
+
+Prove or disprove the following conjecture.
+
+\begin{conj}
+	With the operations $\oplus$ and $\otimes$, $K$ is a field. [Note that your solution should include either a careful verification of each of the field axioms, or a specific counterexample of a field axiom that is not satisfied.]
+\end{conj}
+
+\medskip
+
+\noindent\textit{Solution:}				 \hfill $\lozenge$
+
+
+\bigskip
+
+A \textit{Boolean ring} $R$ is a ring in which $x^2 = x$ for all $x\in R$.
+
+\begin{theorem}
+	Let $R$ be a Boolean ring.
+	Then: 
+	\begin{itemize}
+		\item For all $r\in R$, $r + r = 0_R$. [Hint: Square a convenient element of $R$.]
+		\item $R$ is commutative. [Hint: Square a different convenient element of $R$, then use the previous part.]
+	\end{itemize}
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+
+\end{document}
