@@ -1,0 +1,83 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{8}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{conj}[theorem]{Conjecture}
+
+
+
+
+\title{Math 304 Homework 5}
+
+\author{Your name goes here}
+
+\date{Due October 12, 2018}
+
+\begin{document}
+\maketitle
+
+
+ Let $R$ and $S$ be commutative rings with identity $1_R$ and $1_S$, respectively. 
+ Define
+	\[
+		T = R\oplus S = \setof{(r,s)}{r\in R,\ s\in S},
+	\]
+	the \emph{direct sum} of $R$ and $S$.
+	Define addition on $T$ by $(r_1,s_1) + (r_2,s_2) := (r_1 + r_2, s_1 + s_2)$ and multiplication by $(r_1,s_1) \cdot (r_2,s_2) := (r_1 \cdot r_2, s_1 \cdot s_2)$. 
+	
+	\begin{theorem}
+		As defined above, $T$ is a commutative ring with identity.
+	\end{theorem}
+
+	\begin{proof}
+		
+	\end{proof}
+	
+	
+	
+	
+	
+	\begin{theorem}
+		Let $R$ be a finite commutative ring with no zero divisors and at least two elements.
+		Then $R$ has a multiplicative inverse.
+	\end{theorem}
+	
+	\begin{proof}
+		
+	\end{proof}
+
+\end{document}
