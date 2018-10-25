@@ -1,0 +1,92 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{10}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{conj}[theorem]{Conjecture}
+\newcommand{\ideal}[1]{\left\langle\, #1 \,\right\rangle}
+	\def\set#1{\left\{ {#1} \right\}}
+%	\def\setof#1#2{{\left\{#1\,\middle\rvert\,#2\right\}}}
+	\def\setof#1#2{{\left\{#1\,\colon\,#2\right\}}}
+
+
+\title{Math 304 Homework 6}
+
+\author{Your name goes here}
+
+\date{Due October 26, 2018}
+
+\begin{document}
+\maketitle
+
+
+\begin{theorem}
+	Let $R$ be a commutative ring with identity, and $I,J\subseteq R$ ideals.
+	
+	\begin{enumerate}
+		\item The \emph{sum} $I+J$ of $I$ and $J$ is an ideal of $R$, where
+		\[
+			I+J := \setof{x+y}{x\in I, \ y\in J}.
+		\]
+		\item The \emph{product} $IJ$ of $I$ and $J$ is an ideal of $R$, where
+		\[
+			IJ := \setof{x_1 y_1 + x_2 y_2 + \cdots + x_n y_n}{n\ge 0, \ x\in I, \ y\in J}.
+		\]
+		\item The $n$th power of $I$, $I^n$ is an ideal of $R$, where
+		\[
+			I^n = \underbrace{I\cdot I \cdots I}_{n\text{ times}}.
+		\]
+	\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+
+In the following theorem, fill in the blank, and then complete the proof.
+
+\begin{theorem}
+	Let $m,n\in\Z$.
+	If $a$ is \makebox[0.75in]{\hrulefill}, then $\ideal{a} = \ideal{m} + \ideal{n}$.
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+ 
+
+\end{document}

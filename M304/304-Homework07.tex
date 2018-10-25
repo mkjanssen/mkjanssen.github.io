@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{12}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{conj}[theorem]{Conjecture}
+\newcommand{\ideal}[1]{\left\langle\, #1 \,\right\rangle}
+	\def\set#1{\left\{ {#1} \right\}}
+%	\def\setof#1#2{{\left\{#1\,\middle\rvert\,#2\right\}}}
+	\def\setof#1#2{{\left\{#1\,\colon\,#2\right\}}}
+
+
+\title{Math 304 Homework 7}
+
+\author{Your name goes here}
+
+\date{Due November 2, 2018}
+
+\begin{document}
+\maketitle
+
+
+\begin{theorem}
+	Let $R$ be a Euclidean domain with norm $\delta$.
+	Then $u\in R^\times$ if and only if $\delta(u) = \delta(1)$.
+\end{theorem}
+
+\begin{proof}
+	$(\Rightarrow)$
+	
+	\medskip
+	
+	$(\Leftarrow)$
+	
+\end{proof}
+
+
+Let $S = \Z[\sqrt{d}] = \setof{a+b\sqrt{d}}{a,b\in\Z}$, where $d\in \Z$, $d\ne 1$, and $d$ is not divisible by the square of a prime.
+Define a norm $\delta$ on $S$ by $\delta(a+b\sqrt{d}) = |a^2 - db^2|$\footnote{Despite having this norm, $\Z[\sqrt{d}]$ need not be a Euclidean domain, as we will see later.}.
+
+
+\begin{theorem}
+	Verify the following properties of $\delta$:
+	\begin{enumerate}
+		\item $\delta(x) = 0$ if and only if $x = 0$;
+		\item $\delta(xy) = \delta(x)\delta(y)$;
+		\item $\delta(x) = 1$ if and only if $x$ is a unit;
+		\item If $\delta(x)$ is prime, then $x$ is irreducible in $S$.
+	\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+\
+\begin{enumerate}
+
+	\item 
+	
+	\item 
+	
+	\item 
+	
+	\item 
+
+\end{enumerate}
+\end{proof}
+ 
+
+\end{document}
