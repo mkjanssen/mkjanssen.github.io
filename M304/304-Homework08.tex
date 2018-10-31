@@ -1,0 +1,81 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{14}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{conj}[theorem]{Conjecture}
+\newcommand{\ideal}[1]{\left\langle\, #1 \,\right\rangle}
+	\def\set#1{\left\{ {#1} \right\}}
+%	\def\setof#1#2{{\left\{#1\,\middle\rvert\,#2\right\}}}
+	\def\setof#1#2{{\left\{#1\,\colon\,#2\right\}}}
+
+
+\title{Math 304 Homework 8}
+
+\author{Your name goes here}
+
+\date{Due November 9, 2018}
+
+\begin{document}
+\maketitle
+
+
+\begin{theorem}
+	Let $f(x) = a_0 + a_1 x + \cdots + a_n x^n\in \Z[x]$ such that $a_n\ne 0$.
+	If $r,s\in\Z$ such that $\gcd(r,s)=1$ and $f(r/s) = 0$, then $r| a_0$ and $s|a_n$.
+	[Hint: plug in $r/s$, clear denominators, and do some rearranging.]
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+
+
+
+
+\begin{exercise}
+	Let $F$ be a field.
+	A polynomial $f(x) = a_0 + a_1 x+ \cdots + a_n x^n \in F[x]$ is called \emph{monic} if $a_n = 1$.
+	Find (with proof) all monic irreducible polynomials of degrees 2 and 3 in $\Z_2[x]$. 
+\end{exercise}
+
+
+\noindent\textbf{Solution:} 
+ 
+
+\end{document}
