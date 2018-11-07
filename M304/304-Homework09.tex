@@ -1,0 +1,97 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{16}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{conj}[theorem]{Conjecture}
+\newcommand{\ideal}[1]{\left\langle\, #1 \,\right\rangle}
+	\def\set#1{\left\{ {#1} \right\}}
+%	\def\setof#1#2{{\left\{#1\,\middle\rvert\,#2\right\}}}
+	\def\setof#1#2{{\left\{#1\,\colon\,#2\right\}}}
+
+
+\title{Math 304 Homework 9}
+
+\author{Your name goes here}
+
+\date{Due November 16, 2018}
+
+\begin{document}
+\maketitle
+
+If every ring had the unique factorization property, life would be very boring indeed.
+And in fact, the failure of certain rings in algebraic number theory to have the unique factorization property played a role in several failed attempts to prove Fermat's Last Theorem, which says that there are no nontrivial integer solutions to the equation $x^n + y^n = z^n$ if $n \ge 3$.
+
+In 1847, Gabriel Lam\'{e} claimed he had complete solved the problem. His solution relied on the factorization of $x^p + y^p$, where $p$ is an odd prime, as
+\[
+	x^p + y^p = (x+y)(x+\zeta y) \cdots (x+\zeta^{p-1}y),
+\]
+where $\zeta = e^{2\pi i/p}$ is a primitive $p$-th root of unity in $\C$.
+However, the ring 
+\[
+\Z[\zeta] = \setof{a_0 + a_1 \zeta + a_2 \zeta^2 + \cdots + a_{p-1} \zeta^{p-1}}{a_i\in\Z}
+\]
+is not a unique factorization domain.
+
+In the following exercises, we explore factorization in a similar integral domain, $R = \Z[\sqrt{-5}] = \setof{a+b\sqrt{-5}}{a,b\in\Z}$.
+
+
+\begin{lemma}
+	There do not exist nonnegative integers $x, y, s, t$ such that $2 = x^2+5y^2$ or $3 = s^2 + 5 t^2$.
+\end{lemma}
+
+\begin{proof}
+
+\end{proof}
+
+
+
+
+
+\begin{theorem}
+	In $R = \Z[\sqrt{-5}]$ the elements $2, 3, 1 + \sqrt{-5}$, and $1-\sqrt{-5}$ are irreducible.
+	Moreover, $R$ is not a UFD.
+	[Hint: Apply Theorem N.]
+\end{theorem}
+
+
+\begin{proof}
+
+\end{proof} 
+ 
+
+\end{document}
