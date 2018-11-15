@@ -31,7 +31,7 @@
 \theoremstyle{definition}
 \newtheorem{theorem}{Theorem}
 \renewcommand*{\thetheorem}{\Alph{theorem}}
-\setcounter{theorem}{16}
+\setcounter{theorem}{18}
 \newtheorem{lemma}[theorem]{Lemma}
 \newtheorem{prop}[theorem]{Proposition}
 \newtheorem{claim}[theorem]{Claim}
@@ -44,48 +44,46 @@
 	\def\setof#1#2{{\left\{#1\,\colon\,#2\right\}}}
 
 
-\title{Math 304 Homework 9}
+\title{Math 304 Homework 10}
 
 \author{Your name goes here}
 
-\date{Due November 16, 2018}
+\date{Due November 30, 2018}
 
 \begin{document}
 \maketitle
 
-If every ring had the unique factorization property, life would be very boring indeed.
-And in fact, the failure of certain rings in algebraic number theory to have the unique factorization property played a role in several failed attempts to prove Fermat's Last Theorem, which says that there are no nontrivial integer solutions to the equation $x^n + y^n = z^n$ if $n \ge 3$.
 
-In 1847, Gabriel Lam\'{e} claimed he had complete solved the problem. His solution relied on the factorization of $x^p + y^p$, where $p$ is an odd prime, as
+Let $R = \R[x,y]$ and let $f(x,y), g(x,y)\in \R[x,y]$ be non-constant polynomials.
+Define the \emph{zero set} of $f$ and $g$, $Z(f,g)\subseteq \R^2$, by:
 \[
-	x^p + y^p = (x+y)(x+\zeta y) \cdots (x+\zeta^{p-1}y),
+	Z(f,g) := \setof{(a,b)\in \R^2}{f(a,b) = g(a,b) = 0}.
 \]
-where $\zeta = e^{2\pi i/p}$ is a primitive $p$-th root of unity in $\C$.
-However, the ring 
-\[
-\Z[\zeta] = \setof{a_0 + a_1 \zeta + a_2 \zeta^2 + \cdots + a_{p-1} \zeta^{p-1}}{a_i\in\Z}
-\]
-is not a unique factorization domain.
+Thus, for example, $Z(y-x^3, y - x) = \set{(-1,-1),(0,0),(1,1)}$, while $Z(y-x^2+5x-4)$ contains all the points on the graph of the parabola given by $y = x^2 -5x + 4$.
 
-In the following exercises, we explore factorization in a similar integral domain, $R = \Z[\sqrt{-5}] = \setof{a+b\sqrt{-5}}{a,b\in\Z}$.
+Define $I(Z(f,g)) = \setof{p\in R}{p(a,b) = 0 \text{ for all } (a,b)\in Z(f,g)}$.
 
 
-\begin{lemma}
-	There do not exist nonnegative integers $x, y, s, t$ such that $2 = x^2+5y^2$ or $3 = s^2 + 5 t^2$.
-\end{lemma}
+\begin{theorem}
+	The set $I(Z(f,g))$ is an ideal of $R$ containing $\ideal{f,g}$.
+\end{theorem}
 
 \begin{proof}
 
 \end{proof}
 
+In general, $I(Z(f,g)) \ne \ideal{f,g}$, though if we replace $\R$ by $\C$ and assume an additional technical condition on $f$ and $g$, equality does hold.
 
 
 
 
 \begin{theorem}
-	In $R = \Z[\sqrt{-5}]$ the elements $2, 3, 1 + \sqrt{-5}$, and $1-\sqrt{-5}$ are irreducible.
-	Moreover, $R$ is not a UFD.
-	[Hint: Apply Theorem N and Lemma Q to show that these elements are irreducible. Find something in $R$ that factors in two different ways using these irreducibles--make sure to show that the there are no associates among these irreducibles.]
+	Let $S = \setof{\left(\begin{matrix} a & b \\ -b & a \end{matrix}\right)}{a,b\in \R}$.
+	Prove that $\phi : \C \to S$ given by
+	\[
+		\phi(a+bi) = \left(\begin{matrix} a & b \\ -b & a \end{matrix}\right)
+	\]
+	is a ring isomorphism.	
 \end{theorem}
 
 
@@ -93,5 +91,7 @@ In the following exercises, we explore factorization in a similar integral domai
 
 \end{proof} 
  
+
+
 
 \end{document}
