@@ -1,0 +1,109 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{22}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{conj}[theorem]{Conjecture}
+\newcommand{\ideal}[1]{\left\langle\, #1 \,\right\rangle}
+	\def\set#1{\left\{ {#1} \right\}}
+%	\def\setof#1#2{{\left\{#1\,\middle\rvert\,#2\right\}}}
+	\def\setof#1#2{{\left\{#1\,\colon\,#2\right\}}}
+
+
+\title{Math 304 Extra Board Work}
+
+\author{Your name goes here}
+
+\date{Due December 12, 2018}
+
+\begin{document}
+\maketitle
+
+Choose \textbf{one} of the following. If you do more than one problem, I will grade the first one I see. 
+
+Your work will be graded out of 1 point on the scale a board work question would be graded: 1 point for a clear and correct proof, 1/2 point if it is unclear or somewhat incorrect, and 1/4 point if it is in completely the wrong direction. You are welcome to ask for help as you prepare your proof.
+ 
+\begin{exercise}
+	Let $G$ be a group and fix an element $g\in G$.
+	Define $\varphi_g : G\to G$ by $\varphi(x) = g x g^{-1}$.
+	Prove that $\varphi_g$ is a homomorphism, and determine whether or not it is an isomorphism. 
+\end{exercise}
+
+\begin{proof}
+
+\end{proof}
+
+
+Let $G$ be a group and $N\leq G$.
+We say $N$ is a \emph{normal} subgroup if for all $a\in G$, $a N = Na$, where $aN = \setof{an}{n\in N}$ and $Na = \setof{na}{n\in N}$.
+We denote this by $N\vartriangleleft G$.
+
+\begin{theorem}
+	A subgroup $H$ of $G$ is normal if and only if $x H x^{-1}\subseteq H$ for all $x\in G$.
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+
+\begin{theorem}
+	Let $f : G\to K$ be a homomorphism.
+	Then $\ker f \vartriangleleft G$.
+	[You may use without proof the fact that $f(x^{-1}) = (f(x))^{-1}$.]
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+\begin{theorem}
+	Let $G$ be a group.
+	The \emph{center} of $G$ is the set
+	\[
+		Z(G) = \setof{g\in G}{gh=hg \forall h\in G}.
+	\]
+	Prove that $Z(G)\vartriangleleft G$.
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+
+
+\end{document}
