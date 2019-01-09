@@ -1,0 +1,97 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+\linespread{1.5}
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+%\setcounter{theorem}{2}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+
+
+
+
+\title{Math 212 Homework 1}
+
+\author{Your name goes here}
+
+\date{Due January 23, 2019}
+
+\begin{document}
+\maketitle
+
+
+
+\begin{example}
+	Let $P$ and $Q$ be statements.
+	Construct a truth table for the statement
+	\[
+		[P \land (P\land (P\land Q) \land Q)] \lor Q.
+	\]
+\end{example}
+
+
+\noindent\textbf{Solution.} 
+
+\begin{table}[htp]
+\begin{center}
+\begin{tabular}{c|c|c} % you will need additional columns!
+
+$P$ & $Q$ 	& ?? \\\hline
+T 	& T		& ?  \\
+T	& F 	& ?  \\
+F	& T		& ?	 \\
+F	& F		& ? 
+\end{tabular}
+\end{center}
+\end{table}%
+
+
+
+\begin{example}
+	Let $S$ and $T$ be statements. 
+	Formulate a statement logically equivalent to $S\land (T\lor \neg S)$ using only $S$, $T$, $\neg$, and $\lor$ (each of which you can use as many times as you want/need).
+	Use a truth table to prove that your statement is logically equivalent.
+\end{example}
+
+\noindent\textbf{Solution.} 
+
+
+\begin{example}
+	Let $A$ and $B$ be statements.
+	Determine whether $(A\lor (\neg A \land B)$ and $\neg [ \neg A \land (A\lor \neg B)]$ are logically equivalent.
+	Justify your answer with a truth table.
+\end{example}
+
+\noindent\textbf{Solution.} 
+
+\end{document}
