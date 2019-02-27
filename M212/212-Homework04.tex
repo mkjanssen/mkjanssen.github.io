@@ -1,0 +1,102 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+\linespread{1.5}
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{9}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{statement}[theorem]{Statement}
+
+
+
+
+\title{Math 212 Homework 4}
+
+\author{Your name goes here}
+
+\date{Due March 6, 2019}
+
+\begin{document}
+\maketitle
+
+\noindent\textbf{List of collaborators:}
+
+\begin{theorem}
+	If $k$ is a natural number greater than 2, then $2^k > 1 + 2k$.
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+
+\begin{theorem}
+	For all $n\ge 2$, $n! < n^n$.
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+\noindent For Theorem L, your job is to critique the given proof as follows:
+
+\begin{itemize}\footnotesize
+	\item If a proposition is false, the proposed proof is, of course, incorrect. In this situation, you are to find the error in the proof and then provide a counterexample showing that the proposition is false.
+	\item  If a proposition is true, the proposed proof may still be incorrect. In this case, you are to determine why the proof is incorrect and then write a correct proof using the writing guidelines that have been presented in this book.
+	\item If a proposition is true and the proof is correct, you are to decide if the proof is well written or not. If it is well written, then you simply must indicate that this is an excellent proof and needs no revision. On the other hand, if the proof is not well written, then you must then revise the proof by writing it according to our rubric.
+\end{itemize}
+
+\begin{theorem}
+	All ducks are grey.\footnote{This delightfully punny problem comes from sarah-marie belcastro's excellent \emph{Discrete Mathematics with Ducks}.}
+\end{theorem}
+
+\begin{proof}
+(By inducktion.)
+We rephrase the theorem as follows: for all $n\ge 1$, any collection of $n$ ducks is grey.
+
+\textbf{Base Case:} Any collection of one duck has all ducks of the same color, and there is a grey duck at {\tt \href{http://bit.ly/212greyduck}{http://bit.ly/212greyduck}}.
+
+\textbf{Inducktive Hypothesis:} Suppose, for $k \ge 1$, that any collection of $k$ ducks is the same color (grey).
+
+\textbf{Inducltive Step:} Consider a flock of $k+1$ ducks. We don't know what color they are, or even whether they are all the same color. Choose a duck arbitrarily and set it in the nearby water so that it can swim about. This leaves us with $k$ ducks. Aha! The inducktive hypothesis applies, so all of them are grey. Using a duck call, retrieve the swimming duck (of unknown color). Send one of the grey ducks to the water (in a different direction, so there is no confusion between the ducks). Now we have $k-1$ grey ducks and one duck of unknown color, but together they are a collection of $k$ sucks and so the inducktive hypothesis holds--so all $k$ of them are grey. Now recall the swimming grey duck and see that all $k+1$ ducks are grey.
+
+Thus, for all $n \ge 1$, any collection of $n$ ducks is grey. Therefore, all ducks are grey.
+\end{proof}
+
+
+\noindent\textbf{Critique:} 
+
+
+
+\end{document}
