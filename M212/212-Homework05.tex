@@ -1,0 +1,85 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+\linespread{1.5}
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{12}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{statement}[theorem]{Statement}
+
+
+
+
+\title{Math 212 Homework 5}
+
+\author{Your name goes here}
+
+\date{Due March 27, 2019}
+
+\begin{document}
+\maketitle
+
+\noindent\textbf{List of collaborators:}
+
+
+\begin{theorem}
+	Let $S$ and $T$ be subsets of a universal set $U$.
+	Then $(S\cup T)^c = S^c \cap T^c$.
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+
+\begin{theorem}
+	Let $S$, $T$, and $U$ be sets.
+	Then $S\setminus (T\cup U) = (S\setminus T) \cap (S\Setminus U)$.
+\end{theorem}
+
+\begin{proof} % You're going to have to chase some elements.
+
+\end{proof}
+
+
+\begin{theorem}
+	Let $S$ and $T$ be subsets of a universal set $U$.
+	Then $S\setminus (S\setminus T) = S\cap T$.
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+\end{document}
