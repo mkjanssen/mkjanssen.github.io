@@ -1,0 +1,101 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+\linespread{1.5}
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{15}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{statement}[theorem]{Statement}
+
+
+
+
+\title{Math 212 Homework 6}
+
+\author{Your name goes here}
+
+\date{Due April 10, 2019}
+
+\begin{document}
+\maketitle
+
+\noindent\textbf{List of collaborators:}
+
+\noindent For Theorem \ref{thm:indexsets}, prove one of parts 1--2, and one of parts 3--4.
+You will need to chase elements.
+
+\begin{theorem}\label{thm:indexsets}
+	Let $I$ be an index set and let $\mathcal{F} = \{T_i\}_{i\in I}$ be a family of sets in a universal set $U$.
+	Let $X\subseteq U$.
+	Then:
+		\begin{enumerate}
+			\item $\left(\bigcap\limits_{i\in I} T_i\right)^c = \bigcup\limits_{i\in I} T_i^c$
+			\item $\left(\bigcup\limits_{i\in I} T_i\right)^c = \bigcap\limits_{i\in I} T_i^c$
+			\item $X \cap \left(\bigcup\limits_{i\in I} T_i\right) = \bigcup\limits_{i\in I} (X\cap T_i)$
+			\item $X \cup \left(\bigcap\limits_{i\in I} T_i\right) = \bigcap\limits_{i\in I} (X\cup T_i)$
+		\end{enumerate}
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+\noindent For Theorem \ref{thm:relations}, after you have proved that $\mathcal{R}$ is an equivalence relation, you need to state what the equivalence (relation) classes are, describe them in more familiar terms, and prove that you have found them all.
+
+\begin{theorem}\label{thm:relations}
+	The relation $\mathcal{R}$ defined on $\Z$ by $(m,n)\in \mathcal{R}$ if and only if $m+n$ is even is an equivalence relation.
+	The relation classes are \makebox[0.75in]{\hrulefill}.
+\end{theorem}
+
+\begin{proof} 
+
+\end{proof}
+
+
+\noindent For Theorem \ref{thm:partialorder}, we make the following definition.
+
+\noindent\textbf{Definition. } Let $S$ be a set and $\mathcal{R}$ a relation on $S$.
+We say that $\mathcal{R}$ is a \emph{partial ordering} on $S$ if it is reflexive, transitive, and \emph{anti-symmetric}: if $x,y\in S$ and both $(x,y)\in \mathcal{R}$ and $(y,x)\in \mathcal{R}$, then $x = y$.
+Furthermore, we say that two elements $x,y\in S$ are \emph{comparable} under $\mathcal{R}$ if either $(x,y)\in \mathcal{R}$ or $(y,x)\in\mathcal{R}$.
+If any two elements of $S$ are comparable under $\mathcal{R}$, we say $\mathcal{R}$ is a \emph{total ordering}.
+
+\begin{theorem}\label{thm:partialorder}
+	The relation $\subseteq$ on the set $\mathcal{P}(\Z)$ is a partial ordering that is not a total ordering.
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+\end{document}
