@@ -1,0 +1,91 @@
+\documentclass[11pt]{article}		% The percent symbol in your code starts a comment.  The comment ends at the next linebreak.
+
+\usepackage[english]{babel} 		% Packages add functionality and style conventions to your documents. Don't edit this section!
+\usepackage{fullpage}				% Eliminates wasted space
+\usepackage[utf8]{inputenc}			% Necessary for character encoding
+\usepackage{amsmath, amssymb,amsthm}% Required math packages
+\usepackage{graphicx}				% For handling graphics
+\usepackage[colorinlistoftodos]{todonotes}	% For the fancy "todo" stuff
+\usepackage{hyperref}				% For clickable links in the final PDF
+\usepackage{titling}				% To take less space at the top of the page with the title
+\setlength{\droptitle}{-2cm}
+\pretitle{\begin{flushright}\Large\scshape}
+\posttitle{\par\end{flushright}}
+\preauthor{\begin{flushright}\large\scshape}
+\postauthor{\par\end{flushright}}
+\predate{\begin{flushright}\large\scshape}
+\postdate{\par\end{flushright}}
+\linespread{1.5}
+
+% Type `\C' for the complex numbers, `\H' for the quarternions, etc.
+\def\C{{\mathbb C}}
+\def\H{{\mathbb H}}
+\def\Z{{\mathbb Z}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\N{{\mathbb N}}
+
+
+%\Alpha{homeworkresults}
+
+\theoremstyle{definition}
+\newtheorem{theorem}{Theorem}
+\renewcommand*{\thetheorem}{\Alph{theorem}}
+\setcounter{theorem}{18}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{statement}[theorem]{Statement}
+
+
+
+
+\title{Math 212 Homework 7}
+
+\author{Your name goes here}
+
+\date{Due May 1, 2019}
+
+\begin{document}
+\maketitle
+
+\noindent\textbf{List of collaborators:}
+
+
+
+\begin{theorem}
+	Let $G$ be a graph with at least two vertices.
+	Then two of its vertices have the same degree. % [Hint: Pigeonhole Principle!]
+\end{theorem}
+
+
+\begin{proof}
+
+\end{proof}
+
+
+
+\begin{theorem}
+	The average degree of the vertices of a tree is less than 2.
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+\noindent \textbf{Definition.} The \emph{star graph on $n$ vertices} has one vertex adjacent to all other vertices (and no other adjacencies). 
+
+For the following, fill in the blank and prove your theorem.
+
+\begin{theorem}
+	The star graph on $n$ vertices has \makebox[0.75in]{\hrulefill} edges. % [Hint: induction!]
+\end{theorem}
+
+\begin{proof}
+
+\end{proof}
+
+
+
+\end{document}
