@@ -6,7 +6,7 @@ layout: default
 
 <img class="profile-picture" src="mike.jpg">
 
-Welcome! You have reached the homepage of Dr. Mike Janssen, Assistant Professor of Mathematics at [Dordt College](http://dordt.edu).
+Welcome! You have reached the homepage of Dr. Mike Janssen, Associate Professor of Mathematics at [Dordt University](http://dordt.edu).
 
 
 ## Teaching
