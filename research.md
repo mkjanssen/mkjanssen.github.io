@@ -18,6 +18,8 @@ My dissertation research was in the exploration of the so-called containment pro
 
 I am also very interested in the use of research-based methods for teaching and assessment. As I describe [elsewhere](teaching), I am a proponent of active learning (thought of broadly) in all my courses, and I am also interested in the use of low-stakes, mastery-based assessments tied to clear standards for the purposes of encouraging mastery of fundamental skills and the development of a growth mindset in mathematics.
 
+I compiled some [WeBWorK-based preview activities](downloads/WeBWorK_LinearAlgPreviewActivities.zip) for an elementary linear algebra course.
+
 ## Publications
 
 
